@@ -40,7 +40,7 @@ a {
 .myInfo {
     animation: movimientoBlur linear 3s infinite;
     padding: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
     text-shadow: 7px 5px 0px #00000066;
 }
