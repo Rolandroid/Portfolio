@@ -16,7 +16,7 @@ a {
 
 .landing {
     background: linear-gradient(189.84deg, #8C0000 59.64%, #4B0000 79.78%, #000000 95%);
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ a {
 
 .aboutMe {
     background-color: #e1dede;
-    min-height: 100vh;
+    min-height: 100dvh;
     position: relative;
 }
 
@@ -40,19 +40,20 @@ a {
 .myInfo {
     animation: movimientoBlur linear 3s infinite;
     padding: 1.5rem;
-    font-size: 3vh;
+    font-size: 1rem;
     color: black;
     text-shadow: 7px 5px 0px #00000066;
 }
 .myEducation{
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: #e1dede;
     position: relative;
 }
 .myExperience{
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: #e1dede;
-    position: relative;}
+    position: relative;
+    }
 .educationList{
     padding: 1rem;
 }
