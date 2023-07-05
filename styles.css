@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'IM Fell English', serif;
+    font-weight: 100;
+}
+body {
+    overflow: hidden;
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.landing {
+    background: linear-gradient(189.84deg, #8C0000 59.64%, #4B0000 79.78%, #000000 95%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMe {
+    background-color: #e1dede;
+    min-height: 100vh;
+    position: relative;
+}
+
+.photo {
+    width: 131px;
+    float: right;
+    margin: 10px;
+    border-radius: 50%;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.myInfo {
+    animation: movimientoBlur linear 3s infinite;
+    padding: 1.5rem;
+    font-size: 3vh;
+    color: black;
+    text-shadow: 7px 5px 0px #00000066;
+}
+.myEducation{
+    min-height: 100vh;
+    background-color: #e1dede;
+    position: relative;
+}
+.myExperience{
+    min-height: 100vh;
+    background-color: #e1dede;
+    position: relative;}
+.educationList{
+    padding: 1rem;
+}
+.educationList li div{
+    margin-left: 1rem;
+}
+.educationList li h3{}
+
+.backButton{
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+.title {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    padding: 1rem;
+}
+.shadowAnimation{
+    animation: movimientoBlur linear 3s infinite;
+}
+
+.half {
+    height: 50%;
+    text-align: end;
+    padding-right: 2rem;
+}
+
+.menu {
+    font-size: 1.3rem;
+}
+
+.cortina {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: transparencia 1s forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transparencia {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes movimientoBlur {
+    0% {
+        text-shadow: 39px 20px 20px rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        text-shadow: 0px 20px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        text-shadow: -40px 20px 20px rgba(0, 0, 0, 0);
+    }
+}
+
+.texto-con-animacion {
+    animation: movimientoBlur 4s linear infinite;
+}
