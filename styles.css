@@ -15,7 +15,7 @@ a {
 }
 
 .landing {
-    background: linear-gradient(189.84deg, #8C0000 59.64%, #4B0000 79.78%, #000000 95%);
+    background: linear-gradient(189.84deg, #8c0000 59.64%, #4B0000 79.78%, #000000 95%);
     height: 100dvh;
     display: flex;
     flex-direction: column;
